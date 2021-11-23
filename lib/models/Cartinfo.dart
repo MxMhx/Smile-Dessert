@@ -15,6 +15,10 @@ class CardCart {
 }
 
 List<CardCart> productlist = [
-  CardCart(title: 'Ice-cream Cone', subtitle1: 'Vanilla', prices: 20),
-  CardCart(title: 'Ice-cream Cup', subtitle1: 'Chocolate', prices: 20)
+  CardCart(
+      title: 'Ice-cream Cone',
+      subtitle1: whatisflavorconetext,
+      subtitle2: whatisflavorconetext2,
+      subtitle3: whatisflavorconetext3,
+      prices: 20),
 ];

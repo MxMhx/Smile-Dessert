@@ -156,6 +156,7 @@ class CartPageBody extends StatefulWidget {
 }
 
 class _CartPageBodyState extends State<CartPageBody> {
+  //ดึงข้อมูลมาจ้าา
   @override
   void initState() {
     super.initState();
@@ -233,21 +234,21 @@ class _CartPageBodyState extends State<CartPageBody> {
                                 fontWeight: FontWeight.w500),
                           ),
                           Text(
-                            'Vanilla',
+                            cartinfo.subtitle1.toString(),
                             style: TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400),
                           ),
                           Text(
-                            'Chocolate',
+                            cartinfo.subtitle2.toString(),
                             style: TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
                                 fontWeight: FontWeight.w400),
                           ),
                           Text(
-                            'Choc-Chip',
+                            cartinfo.subtitle3.toString(),
                             style: TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
